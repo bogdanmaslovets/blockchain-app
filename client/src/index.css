@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(246, 63%, 9%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 0%, hsla(293, 100%, 50%, 0.45) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(183, 67%, 54%, 0.45) 0, transparent 50%);
+}
+
+.gradient-bg-services {
+  background-image: radial-gradient(
+    at 50% 100%,
+    hsla(183, 67%, 54%, 0.45) 0,
+    transparent 50%
+  );
+}
+
+.gradient-bg-transactions {
+  background-image: radial-gradient(
+    at 50% 0%,
+    hsla(183, 67%, 54%, 0.45) 0,
+    transparent 50%
+  );
+}
+
+.gradient-bg-footer {
+  background-image: radial-gradient(
+    at 50% 150%,
+    hsla(293, 100%, 50%, 0.45) 0,
+    transparent 50%
+  );
+}
+
+.blue-background {
+  background: linear-gradient(
+      140.14deg,
+      rgba(0, 182, 191, 0.15) 0%,
+      rgba(27, 22, 89, 0.1) 86.61%
+    ),
+    linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.eth-card {
+  background-color: #a099ff;
+  background-image: linear-gradient(
+    246deg,
+    hsla(293, 100%, 50%, 0.7) 7.97%,
+    hsla(222, 100%, 58%, 0.7) 49.17%,
+    hsla(183, 67%, 54%, 0.7) 92.1%
+  );
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
