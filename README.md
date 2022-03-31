@@ -1,6 +1,6 @@
 # Web 3.0 Blockchain App
 
-[View it](https://web3-blockchain-app.netlify.app/)
+### [View it](https://web3-blockchain-app.netlify.app/)
 
 ![Web 3.0 Blockchain App](https://user-images.githubusercontent.com/93548530/159907136-3fbcc421-0afa-4ab2-b685-f6a1f5f4350e.png)
 
